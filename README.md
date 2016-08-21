@@ -1,0 +1,3 @@
+INICIALIZANDO CURSO DE GIT E GITHUB BÁSICO
+
+git commit -m "A COMMIT HERE", adicionada um commit com a mensagem A COMM...
