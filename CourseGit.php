@@ -27,7 +27,6 @@
         }
 
         public function __toString() {
-            // TODO: Implement __toString() method.
             return "Lear Git and GitHub";
         }
     }
