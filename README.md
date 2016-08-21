@@ -24,3 +24,9 @@ git remote add <repository-name> <link-repository> | adiciona um repositório re
 git remote | lista repositórios remotos
 
 git remote -v | mosta informações do repositório remoto
+
+git remote add origin https://github.com/deividNetwork/CourseGit.git | Adiciona repositório remoto
+
+git remote set-url <name-repository> <new-url> | Edita url do repositório
+
+git push origin master | Envia app local para o remoto(origin) para o branch master
