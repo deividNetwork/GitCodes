@@ -1,7 +1,7 @@
 #INICIALIZANDO CURSO DE GIT E GITHUB BÁSICO
 
 
-#LOG AND STATUS
+##LOG AND STATUS
 git status | mostra status de arquivos, UNTRACKED, UNMODFIED, MODIFIED, STAGE
 
 git commit -m "A COMMIT HERE" | adicionada um commit com a mensagem A COMM...
@@ -16,14 +16,14 @@ git log | mostra log de ações
 
 git diff | diferença dos arquivos antes de commitar
 
-#RESET
+##RESET
 
 git reset <soft>,<mixed>,<hard> <commit-hash> | volta o app para um commit especificado.
 <soft> = Volta para para o untracked, sem apagar o commit
 <mixed> = Volta para o modified permitindo diff, sem apagar o commit
 <hard> = Volta para o staged, apagando o commit
 
-#REMOTE
+##REMOTE
 
 git remote add <repository-name> <link-repository> | adiciona um repositório remoto
 
@@ -36,11 +36,11 @@ git remote add origin https://github.com/deividNetwork/CourseGit.git | Adiciona 
 git remote set-url <name-repository> <new-url> | Edita url do repositório
 
 
-#PUSH
+##PUSH
 
 git push origin master | Envia app local para o remoto(origin) para o branch master
 
-#BRANCH
+##BRANCH
 
 git branch | Lista todos os branchs e destaca o atual
 
