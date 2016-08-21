@@ -8,6 +8,7 @@
      */
     class CourseGit {
         private $name;
+        private $aboutMore;
 
         public function __construct() {
             $this->setName("git version 2.9.2.windows.1");
@@ -19,6 +20,10 @@
 
         public function getName() {
             return $this->name;
+        }
+
+        public function setAboutMore($aboutMore) {
+            $this->aboutMore = $aboutMore;
         }
 
         public function __toString() {
