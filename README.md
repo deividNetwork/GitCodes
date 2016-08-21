@@ -13,3 +13,14 @@ git show <commit-hash> | mostra alterações feitas num commit específico
 git log | mostra log de ações
 
 git diff | diferença dos arquivos antes de commitar
+
+git reset <soft>,<mixed>,<hard> <commit-hash> | volta o app para um commit especificado.
+<soft> = Volta para para o untracked, sem apagar o commit
+<mixed> = Volta para o modified permitindo diff, sem apagar o commit
+<hard> = Volta para o staged, apagando o commit
+
+git remote add <repository-name> <link-repository> | adiciona um repositório remoto
+
+git remote | lista repositórios remotos
+
+git remote -v | mosta informações do repositório remoto
