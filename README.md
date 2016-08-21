@@ -42,8 +42,10 @@ git push origin master | Envia app local para o remoto(origin) para o branch mas
 
 ##BRANCH
 
+git checkout -b <nome-do-branch> | cria um novo branch
+
 git branch | Lista todos os branchs e destaca o atual
 
-git branch -D <nome-do-branch> | remove o branch específico
+git checkout <nome-do-branch> | Altera para outro branch
 
-git checkout -b <nome-do-branch> | cria um novo branch
+git branch -D <nome-do-branch> | remove o branch específico
