@@ -12,6 +12,7 @@
 
         public function __construct() {
             $this->setName("git version 2.9.2.windows.1");
+            $this->setAboutMore("Learn more in: <https://git-scm.com/documentation>");
         }
 
         public function setName($name) {
@@ -24,6 +25,10 @@
 
         public function setAboutMore($aboutMore) {
             $this->aboutMore = $aboutMore;
+        }
+
+        public function getAboutMore() {
+            return $this->aboutMore;
         }
 
         public function __toString() {
