@@ -6,6 +6,7 @@
      * Date: 21/08/2016
      * Time: 17:19
      */
+
     class CourseGit {
         private $name;
         private $aboutMore;
