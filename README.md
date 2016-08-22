@@ -19,22 +19,22 @@
 ``` commit -am "OTHER COMMIT HERE"```
 
 
-> altera o estado de <file> UNTRACKED para STAGE, para proseguir com o commit
+> Altera o estado de <file> UNTRACKED para STAGE, para proseguir com o commit
 
 ```git add <file>```
 
 
-> mostra alterações feitas num commit específico
+> Mostra alterações feitas num commit específico
 
 ```git show <commit-hash>```
 
 
-> mostra log de ações
+> Mostra log de ações
 
 ```git log```
 
 
-> diferença dos arquivos antes de commitar
+> Diferença dos arquivos antes de commitar
 
 ```git diff```
 
@@ -42,7 +42,7 @@
 
 ##Reset
 
-> volta o app para um commit especificado.
+> Volta o app para um commit especificado.
 
 ```git reset <soft>,<mixed>,<hard> <commit-hash>``` 
 <soft> = Volta para para o untracked, sem apagar o commit
@@ -52,7 +52,7 @@
 
 
 ##Revert
-> Apenas reverte o commit, mas sem discartar os anteriores
+> Apenas reverte o commit, sem descartar os anteriores
 
 ```git revert <commit-hash>``` 
 
@@ -60,17 +60,17 @@
 
 ##Repository remote
 
-> adiciona um repositório remoto
+> Adiciona um repositório remoto
 
 ```git remote add <repository-name> <link-repository>```
 
 
-> lista repositórios remotos
+> Lista de repositórios remotos
 
 ```git remote```
 
 
-> mosta informações do repositório remoto
+> Mostra informações do repositório remoto
 
 ```git remote -v```
 
@@ -80,9 +80,9 @@
 ```git remote add <repository-name> <repository-url>```
 
 
-> Edita url do repositório
+> Edita url do repositório remoto
 
-```git remote set-url <name-repository> <new-url>``` 
+```git remote set-url <repository-name> <new-url>``` 
 
 
 
@@ -96,7 +96,7 @@
 
 ##Branch
 
-> cria um novo branch
+> Cria um novo branch
 
 ```git checkout -b <branch-name>```
 
@@ -111,7 +111,7 @@
 ```git checkout <branch-name>```
 
 
-> remove o branch específico
+> Remove o branch específico
 
 ```git branch -D <branch-name>``` 
 
@@ -119,7 +119,7 @@
 
 ##Merge
 
-> Mescla todas as modificações do <branch-name> com o branch master
+> Mescla todas as modificações do branch-name com o branch master
 
 ```git merge <branch-name>``` 
 
@@ -127,7 +127,7 @@
 
 ##Rebase
 
-> Mescla todas as modificações do <branch-name> com o branch de forma linear
+> Mescla todas as modificações do branch-name com o branch de forma linear
 
 ```git rebase <branch-name>``` 
 
