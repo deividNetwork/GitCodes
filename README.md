@@ -26,7 +26,7 @@ git reset <soft>,<mixed>,<hard> <commit-hash> | volta o app para um commit espec
 ##REVERT
 git revert <commit-hash> | Apenas reverte o commit, mas sem discartar os anteriores
 
-##REMOTE
+##REPOSITORY REMOTE
 
 git remote add <repository-name> <link-repository> | adiciona um repositório remoto
 
@@ -41,7 +41,7 @@ git remote set-url <name-repository> <new-url> | Edita url do repositório
 
 ##PUSH
 
-git push origin master | Envia app local para o remoto(origin) para o branch master
+git push <repository> <branch> | Envia app local para o remoto(origin) para o branch master
 
 ##BRANCH
 
