@@ -95,7 +95,7 @@ hard = Volta para o staged, apagando o commit
 
 ###Push
 
-> Envia app local para o remoto(origin) para o branch master
+> Envia a aplicação do repositório espeficidado junto ao branch
 
 ```git push <repository> <branch>``` 
 
