@@ -12,6 +12,8 @@
     class Main {
         public function __construct() {
             $course = new Course();
+            
             echo $course->getName();
+            echo $course->getAboutMore();
         }
     }
