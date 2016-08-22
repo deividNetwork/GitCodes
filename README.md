@@ -56,3 +56,7 @@ git merge <nome-do-branch> | Mescla todas as modificações do <nome-do-branch> 
 
 ##REBASE
 git rebase <nome-do-branch> | Mescla todas as modificações do <nome-do-branch> com o branch de forma linear
+
+
+##ALIAS
+git config --global alias.<shortcut> <command> | Cria um atalho para um comando específico
