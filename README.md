@@ -50,4 +50,9 @@ git checkout <nome-do-branch> | Altera para outro branch
 
 git branch -D <nome-do-branch> | remove o branch específico
 
-##TESTE DEV_DEIVID
+##MERGE
+
+git merge <nome-do-branch> | Mescla todas as modificações do <nome-do-branch> com o branch master
+
+##REBASE
+git rebase <nome-do-branch> | Mescla todas as modificações do <nome-do-branch> com o branch de forma linear
