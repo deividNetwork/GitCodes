@@ -49,9 +49,9 @@
 > Volta o app para um commit especificado.
 
 ```git reset <soft>,<mixed>,<hard> <commit-hash>``` 
-<soft> = Volta para para o untracked, sem apagar o commit
-<mixed> = Volta para o modified permitindo diff, sem apagar o commit
-<hard> = Volta para o staged, apagando o commit
+soft = Volta para para o untracked, sem apagar o commit
+mixed = Volta para o modified permitindo verificar o diff, sem apagar o commit
+hard = Volta para o staged, apagando o commit
 	
 
 
