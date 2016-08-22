@@ -1,7 +1,7 @@
 #Basic Git Codes
 
 
-###Status and Commit
+###Status and Logs
 
 > Mostrar status do repositório, UNTRACKED, UNMODFIED, MODIFIED, STAGE, ...
 
@@ -20,16 +20,6 @@
 ```git add <file>```
 
 
-> Adicionar um commit com a mensagem A COMMIT HERE
-
-```git commit -m "A COMMIT HERE"```
-
-
-> Comitar os arquivos já trackeados e modificados
-
-``` git commit -am "OTHER COMMIT HERE"```
-
-
 > Mostra alterações feitas num commit específico
 
 ```git show <commit-hash>```
@@ -38,6 +28,19 @@
 > Diferença dos arquivos antes de comitar
 
 ```git diff```
+
+
+
+###Commit
+
+> Adicionar um commit com a mensagem A COMMIT HERE
+
+```git commit -m "A COMMIT HERE"```
+
+
+> Comitar os arquivos já trackeados e modificados
+
+``` git commit -am "OTHER COMMIT HERE"```
 
 
 
