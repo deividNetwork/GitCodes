@@ -46,7 +46,7 @@
 
 ###Reset
 
-> Volta o app para um commit especificado.
+> Volta o app para o commit especificado.
 
 ```git reset <soft>,<mixed>,<hard> <commit-hash>```
 
