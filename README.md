@@ -25,9 +25,9 @@
 ```git commit -m "A COMMIT HERE"```
 
 
-> Adicionar os arquivos já trackeados e modificados
+> Comitar os arquivos já trackeados e modificados
 
-``` commit -am "OTHER COMMIT HERE"```
+``` git commit -am "OTHER COMMIT HERE"```
 
 
 > Mostra alterações feitas num commit específico
@@ -35,7 +35,7 @@
 ```git show <commit-hash>```
 
 
-> Diferença dos arquivos antes de commitar
+> Diferença dos arquivos antes de comitar
 
 ```git diff```
 
