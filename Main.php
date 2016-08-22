@@ -12,8 +12,6 @@
     class Main {
         public function __construct() {
             $course = new Course();
-
-            $course = null; //ERRROR DAQUI ADIANTE
             
             echo $course->getName();
             echo $course->getAboutMore();
