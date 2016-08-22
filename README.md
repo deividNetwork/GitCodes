@@ -60,3 +60,6 @@ git rebase <nome-do-branch> | Mescla todas as modificações do <nome-do-branch>
 
 ##ALIAS
 git config --global alias.<shortcut> <command> | Cria um atalho para um comando específico
+
+##TAGS
+git tag -a v1.0.0 -m "My Message Here" | Adiciona tags como release/version no GitHub com comentário sobre a mesma
