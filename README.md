@@ -23,9 +23,6 @@ git reset <soft>,<mixed>,<hard> <commit-hash> | volta o app para um commit espec
 <mixed> = Volta para o modified permitindo diff, sem apagar o commit
 <hard> = Volta para o staged, apagando o commit
 
-##REVERT
-git revert <commit-hash> | Apenas reverte o commit, mas sem discartar os anteriores
-
 ##REMOTE
 
 git remote add <repository-name> <link-repository> | adiciona um repositório remoto
