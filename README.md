@@ -1,37 +1,38 @@
 #Basic Git Codes
 
 
-##Log and Status
+###Status and Commit
 
-> Mostra status do repositório, UNTRACKED, UNMODFIED, MODIFIED, STAGE, ...
+> Mostrar status do repositório, UNTRACKED, UNMODFIED, MODIFIED, STAGE, ...
 
 
 ```git status```
 
 
-> Adiciona um commit com a mensagem A COMMIT HERE...
+
+> Mostra log de ações
+
+```git log```
+
+
+> Alterar o estado de file UNTRACKED para STAGE, possibilitando seguir com o commit
+
+```git add <file>```
+
+
+> Adicionar um commit com a mensagem A COMMIT HERE
 
 ```git commit -m "A COMMIT HERE"```
 
 
-> Adiciona os arquivos já trackeados e modificados
+> Adicionar os arquivos já trackeados e modificados
 
 ``` commit -am "OTHER COMMIT HERE"```
-
-
-> Altera o estado de <file> UNTRACKED para STAGE, para proseguir com o commit
-
-```git add <file>```
 
 
 > Mostra alterações feitas num commit específico
 
 ```git show <commit-hash>```
-
-
-> Mostra log de ações
-
-```git log```
 
 
 > Diferença dos arquivos antes de commitar
@@ -40,7 +41,7 @@
 
 
 
-##Reset
+###Reset
 
 > Volta o app para um commit especificado.
 
@@ -51,14 +52,14 @@
 	
 
 
-##Revert
+###Revert
 > Apenas reverte o commit, sem descartar os anteriores
 
 ```git revert <commit-hash>``` 
 
 
 
-##Repository remote
+###Repository remote
 
 > Adiciona um repositório remoto
 
@@ -86,7 +87,7 @@
 
 
 
-##Push
+###Push
 
 > Envia app local para o remoto(origin) para o branch master
 
@@ -94,7 +95,7 @@
 
 
 
-##Branch
+###Branch
 
 > Cria um novo branch
 
@@ -117,7 +118,7 @@
 
 
 
-##Merge
+###Merge
 
 > Mescla todas as modificações do branch-name com o branch master
 
@@ -125,7 +126,7 @@
 
 
 
-##Rebase
+###Rebase
 
 > Mescla todas as modificações do branch-name com o branch de forma linear
 
@@ -133,7 +134,7 @@
 
 
 
-##Alias
+###Alias
 
 > Cria um atalho para um comando específico
 
@@ -141,7 +142,7 @@
 
 
 
-##Tags
+###Tags
 
 > Adiciona tags como release/version no GitHub com comentário sobre a mesma
 
@@ -157,7 +158,7 @@
 ```git tag -d <tag-number>``` 
 
 
-##Delete remote branch and tag
+###Delete remote branch and tag
 
 ```git push <repository> :<tag-number>```
 ```git push <repository> :<branch-name>```
