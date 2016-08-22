@@ -1,4 +1,4 @@
-#INICIALIZANDO CURSO DE GIT E GITHUB BÁSICO
+#ATALHOS BÁSICOS DE GIT
 
 
 ##LOG AND STATUS
@@ -45,25 +45,31 @@ git push <repository> <branch> | Envia app local para o remoto(origin) para o br
 
 ##BRANCH
 
-git checkout -b <nome-do-branch> | cria um novo branch
+git checkout -b <branch-name> | cria um novo branch
 
 git branch | Lista todos os branchs e destaca o atual
 
-git checkout <nome-do-branch> | Altera para outro branch
+git checkout <branch-name> | Altera para outro branch
 
-git branch -D <nome-do-branch> | remove o branch específico
+git branch -D <branch-name> | remove o branch específico
 
 ##MERGE
 
-git merge <nome-do-branch> | Mescla todas as modificações do <nome-do-branch> com o branch master
+git merge <branch-name> | Mescla todas as modificações do <branch-name> com o branch master
 
 ##REBASE
-git rebase <nome-do-branch> | Mescla todas as modificações do <nome-do-branch> com o branch de forma linear
+git rebase <branch-name> | Mescla todas as modificações do <branch-name> com o branch de forma linear
 
 
 ##ALIAS
 git config --global alias.<shortcut> <command> | Cria um atalho para um comando específico
 
 ##TAGS
-git tag -a v1.0.0 -m "My Message Here" | Adiciona tags como release/version no GitHub com comentário sobre a mesma
+git tag -a <tag-number> -m "My Message Here" | Adiciona tags como release/version no GitHub com comentário sobre a mesma
 git push origin master --tags | Envia a tag para o GitHub
+git tag -d <tag-number> | Deleta tag
+
+
+##DELETE REMOTE BRANCH AND REMOTE TAG
+git push <repository> : <tag-number>
+git push <repository> : <branch-name>
