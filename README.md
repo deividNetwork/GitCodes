@@ -63,3 +63,4 @@ git config --global alias.<shortcut> <command> | Cria um atalho para um comando 
 
 ##TAGS
 git tag -a v1.0.0 -m "My Message Here" | Adiciona tags como release/version no GitHub com comentário sobre a mesma
+git push origin master --tags | Envia a tag para o GitHub
