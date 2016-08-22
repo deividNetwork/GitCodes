@@ -161,4 +161,5 @@
 ###Delete remote branch and tag
 
 ```git push <repository> :<tag-number>```
+
 ```git push <repository> :<branch-name>```
