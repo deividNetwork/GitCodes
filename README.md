@@ -102,7 +102,7 @@ hard = Volta para o staged, apagando o commit
 ###Pull Request
 
 > Socilita uma avaliação para alocação de alterações no branch master
-```git pull-request <start> <repository> <url> <end>
+```git request-pull <start> <repository> <url> <end>
 
 ###Branch
 
