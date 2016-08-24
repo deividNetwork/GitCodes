@@ -97,7 +97,9 @@ hard = Volta para o staged, apagando o commit
 
 > Envia a aplicação do repositório espeficidado junto ao branch
 
-```git push <repository> <branch>``` 
+```git push <repository> <branch>```
+
+
 
 ###Pull Request
 
