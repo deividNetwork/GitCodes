@@ -99,7 +99,10 @@ hard = Volta para o staged, apagando o commit
 
 ```git push <repository> <branch>``` 
 
+###Pull Request
 
+> Socilita uma avaliação para alocação de alterações no branch master
+```git request-pull <start> <repository> <url> <end>
 
 ###Branch
 
