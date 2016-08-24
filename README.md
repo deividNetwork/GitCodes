@@ -105,6 +105,8 @@ hard = Volta para o staged, apagando o commit
 
 > Socilita uma avaliação para alocação de alterações no branch master
 
+
+
 ###Branch
 
 > Cria um novo branch
